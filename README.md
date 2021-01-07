@@ -58,7 +58,8 @@ const array1 = [4, 50, 6, 49, 10, 63];
  
 console.log(array1.every(constraints)); // expected output: true
  
-Syntax
+## Syntax
+
 arr.every(callback(element[, index[, array]])[, thisArg])
 
 The callback function will receive 3 arguments, the element, the index, and the full array.
