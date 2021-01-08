@@ -16,4 +16,4 @@ const isEurope=(nation) =>{
 }
 
 console.log(nations.find(isEurope));
-// { name: 'cherries', quantity: 5 }
+// expected output: {name: "Portugal", continent: "Europe"}
